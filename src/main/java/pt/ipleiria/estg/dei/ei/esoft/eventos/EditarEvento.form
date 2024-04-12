@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pt.ipleiria.estg.dei.ei.esoft.eventos.EditarEvento">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-15263977"/>
+      <minimumSize width="1280" height="720"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="10c1" binding="topPanel" layout-manager="FlowLayout" hgap="35" vgap="22" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14342875"/>
+          <minimumSize width="100" height="100"/>
+          <preferredSize width="100" height="100"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a1e18" class="javax.swing.JButton" binding="btnEventos">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <defaultCapable value="true"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <focusable value="true"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="evento.png"/>
+              <iconTextGap value="14"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <text value="EVENTOS"/>
+            </properties>
+          </component>
+          <component id="5133" class="javax.swing.JButton" binding="btnAtletas">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <defaultCapable value="true"/>
+              <doubleBuffered value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="atletas.png"/>
+              <iconTextGap value="16"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="280" height="60"/>
+              <text value="ATLETAS"/>
+            </properties>
+          </component>
+          <component id="3518" class="javax.swing.JButton" binding="btnResultados">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <icon value="resultados.png"/>
+              <iconTextGap value="4"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <requestFocusEnabled value="true"/>
+              <text value="RESULTADOS"/>
+            </properties>
+          </component>
+          <component id="98ad1" class="javax.swing.JButton" binding="btnCalendario">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="calendario.png"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <requestFocusEnabled value="true"/>
+              <text value="CALENDARIO"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7da30" binding="bodyPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-15263977"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7fb38" binding="btnsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-15263977"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9ccf3" class="javax.swing.JButton" binding="btnConfirmar">
+                <constraints/>
+                <properties>
+                  <background color="-14342875"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="Inter" size="26" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalTextPosition value="0"/>
+                  <maximumSize width="240" height="50"/>
+                  <minimumSize width="240" height="50"/>
+                  <preferredSize width="240" height="50"/>
+                  <text value="CONFIRMAR"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <hspacer id="2d418">
+                <constraints/>
+              </hspacer>
+              <component id="eea16" class="javax.swing.JButton" binding="btnCancelar">
+                <constraints/>
+                <properties>
+                  <background color="-14342875"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="Inter" size="26" style="1"/>
+                  <foreground color="-1"/>
+                  <maximumSize width="240" height="50"/>
+                  <minimumSize width="240" height="50"/>
+                  <preferredSize width="240" height="50"/>
+                  <text value="CANCELAR"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="fc750" binding="formPanel" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-15263977"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="d94c3" binding="esquerdoPanel" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15263977"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8d069" class="javax.swing.JLabel" binding="nome">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="35"/>
+                        <preferred-size width="563" height="35"/>
+                        <maximum-size width="-1" height="35"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Inter" size="20"/>
+                      <foreground color="-1"/>
+                      <text value="NOME *"/>
+                    </properties>
+                  </component>
+                  <component id="10a59" class="javax.swing.JTextField" binding="textNome">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="500" height="30"/>
+                        <preferred-size width="563" height="30"/>
+                        <maximum-size width="500" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <caretColor color="-2500135"/>
+                      <font name="Inter" size="16" style="1"/>
+                      <foreground color="-15263977"/>
+                      <selectedTextColor color="-1"/>
+                      <selectionColor color="-15263977"/>
+                    </properties>
+                  </component>
+                  <component id="b5fb6" class="javax.swing.JLabel" binding="local">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="35"/>
+                        <preferred-size width="563" height="35"/>
+                        <maximum-size width="-1" height="35"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Inter" size="20"/>
+                      <foreground color="-1"/>
+                      <text value="LOCAL *"/>
+                    </properties>
+                  </component>
+                  <component id="4befc" class="javax.swing.JTextField" binding="textLocal">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="500" height="30"/>
+                        <preferred-size width="563" height="30"/>
+                        <maximum-size width="500" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <caretColor color="-2500135"/>
+                      <font name="Inter" size="16" style="1"/>
+                      <foreground color="-15263977"/>
+                      <selectedTextColor color="-1"/>
+                      <selectionColor color="-15263977"/>
+                    </properties>
+                  </component>
+                  <component id="e503b" class="javax.swing.JLabel" binding="modalidade">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="40"/>
+                        <preferred-size width="563" height="40"/>
+                        <maximum-size width="-1" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Inter" size="20"/>
+                      <foreground color="-1"/>
+                      <iconTextGap value="4"/>
+                      <text value="MODALIDADE *"/>
+                    </properties>
+                  </component>
+                  <component id="74980" class="javax.swing.JTextField" binding="textModalidade">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="250" height="30"/>
+                        <preferred-size width="563" height="30"/>
+                        <maximum-size width="250" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <caretColor color="-2500135"/>
+                      <font name="Inter" size="16" style="1"/>
+                      <foreground color="-15263977"/>
+                      <selectedTextColor color="-1"/>
+                      <selectionColor color="-15263977"/>
+                    </properties>
+                  </component>
+                  <component id="7f92e" class="javax.swing.JLabel" binding="escalaoEtario">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="40"/>
+                        <preferred-size width="563" height="40"/>
+                        <maximum-size width="-1" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Inter" size="20"/>
+                      <foreground color="-1"/>
+                      <text value="ESCALÃO ETÁRIO"/>
+                    </properties>
+                  </component>
+                  <component id="ca9ec" class="javax.swing.JComboBox" binding="dropdownEscalaoEtario">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="250" height="30"/>
+                        <preferred-size width="563" height="30"/>
+                        <maximum-size width="250" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="comboBoxChanged"/>
+                      <background color="-1"/>
+                      <focusable value="false"/>
+                      <font name="Inter" size="16" style="1"/>
+                      <foreground color="-15263977"/>
+                      <model/>
+                    </properties>
+                  </component>
+                  <component id="6968b" class="javax.swing.JLabel" binding="genero">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="40"/>
+                        <preferred-size width="563" height="40"/>
+                        <maximum-size width="-1" height="40"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Inter" size="20"/>
+                      <foreground color="-1"/>
+                      <text value="GÉNERO"/>
+                    </properties>
+                  </component>
+                  <grid id="c0e56" binding="generoPanel" layout-manager="FlowLayout" hgap="5" vgap="0" flow-align="0">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="563" height="35"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <background color="-15263977"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="37405" class="javax.swing.JCheckBox" binding="masculinoCheckBox" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <background color="-15263977"/>
+                          <borderPainted value="false"/>
+                          <contentAreaFilled value="true"/>
+                          <focusPainted value="false"/>
+                          <font name="Inter" size="20" style="1"/>
+                          <foreground color="-2500135"/>
+                          <hideActionText value="false"/>
+                          <horizontalAlignment value="0"/>
+                          <maximumSize width="140" height="35"/>
+                          <minimumSize width="140" height="35"/>
+                          <preferredSize width="140" height="35"/>
+                          <text value="Masculino"/>
+                        </properties>
+                      </component>
+                      <component id="3eea8" class="javax.swing.JCheckBox" binding="femininoCheckBox" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <background color="-15263977"/>
+                          <focusPainted value="false"/>
+                          <font name="Inter" size="20" style="1"/>
+                          <foreground color="-2500135"/>
+                          <horizontalAlignment value="0"/>
+                          <maximumSize width="140" height="35"/>
+                          <minimumSize width="140" height="35"/>
+                          <preferredSize width="140" height="35"/>
+                          <text value="Feminino"/>
+                          <verticalAlignment value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="6045e" binding="direitoPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15263977"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="1dd2" class="javax.swing.JLabel" binding="pais">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="-1" height="35"/>
+                        <preferred-size width="563" height="35"/>
+                        <maximum-size width="-1" height="35"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font name="Inter" size="20"/>
+                      <foreground color="-1"/>
+                      <text value="PAÍS * "/>
+                    </properties>
+                  </component>
+                  <component id="4673d" class="javax.swing.JComboBox" binding="paisesComboBox">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                        <minimum-size width="250" height="30"/>
+                        <preferred-size width="563" height="30"/>
+                        <maximum-size width="250" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="comboBoxChanged"/>
+                      <background color="-1"/>
+                      <focusable value="false"/>
+                      <font name="Inter" size="16" style="1"/>
+                      <foreground color="-15263977"/>
+                      <model/>
+                      <name value=""/>
+                    </properties>
+                  </component>
+                  <grid id="86377" binding="categoriasPesoPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-15263977"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="a51ac" binding="textoPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="569ea" class="javax.swing.JLabel" binding="categoriasPeso">
+                            <constraints/>
+                            <properties>
+                              <font name="Inter" size="20"/>
+                              <foreground color="-1"/>
+                              <text value="CATEGORIAS PESO"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="d3dbf" binding="masculinoPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="54d5a" class="javax.swing.JLabel" binding="masculino">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Inter" size="16"/>
+                              <foreground color="-1"/>
+                              <text value="Masculino"/>
+                            </properties>
+                          </component>
+                          <grid id="6d8a2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="d2641" class="javax.swing.JCheckBox" binding="CB38">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-38kg"/>
+                                </properties>
+                              </component>
+                              <component id="cbf23" class="javax.swing.JCheckBox" binding="CB42">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-42kg"/>
+                                </properties>
+                              </component>
+                              <component id="606b8" class="javax.swing.JCheckBox" binding="CB46">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-46kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="8dbec" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="ad41d" class="javax.swing.JCheckBox" binding="CB50">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-50kg"/>
+                                </properties>
+                              </component>
+                              <component id="8c16" class="javax.swing.JCheckBox" binding="CB55">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-55kg"/>
+                                </properties>
+                              </component>
+                              <component id="a3062" class="javax.swing.JCheckBox" binding="CB60">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-60kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="4b245" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="18cc1" class="javax.swing.JCheckBox" binding="CB66">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-66kg"/>
+                                </properties>
+                              </component>
+                              <component id="afa8f" class="javax.swing.JCheckBox" binding="CB73">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-73kg"/>
+                                </properties>
+                              </component>
+                              <component id="a0602" class="javax.swing.JCheckBox" binding="CB81">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-81kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="3e559" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="6953f" class="javax.swing.JCheckBox" binding="CB81M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+81kg"/>
+                                </properties>
+                              </component>
+                              <component id="321ef" class="javax.swing.JCheckBox" binding="CB90">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-90kg"/>
+                                </properties>
+                              </component>
+                              <component id="77326" class="javax.swing.JCheckBox" binding="CB90M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+90kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="3f622" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="e8af5" class="javax.swing.JCheckBox" binding="CB100">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-100kg"/>
+                                </properties>
+                              </component>
+                              <component id="3cb20" class="javax.swing.JCheckBox" binding="CB100M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+100kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="309ee" binding="femininoPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="d9ce0" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="252" height="33"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="93bc3" class="javax.swing.JCheckBox" binding="CB40">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-40kg"/>
+                                </properties>
+                              </component>
+                              <component id="45ce9" class="javax.swing.JCheckBox" binding="CB44">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-44kg"/>
+                                </properties>
+                              </component>
+                              <component id="30093" class="javax.swing.JCheckBox" binding="CB48">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-48kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="4fec6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="252" height="33"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="38127" class="javax.swing.JCheckBox" binding="CB52">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-52kg"/>
+                                </properties>
+                              </component>
+                              <component id="5c081" class="javax.swing.JCheckBox" binding="CB57">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-57kg"/>
+                                </properties>
+                              </component>
+                              <component id="ddee1" class="javax.swing.JCheckBox" binding="CB63">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-63kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="c7781" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="252" height="33"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="e3957" class="javax.swing.JCheckBox" binding="CB70">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-70kg"/>
+                                </properties>
+                              </component>
+                              <component id="49e96" class="javax.swing.JCheckBox" binding="CB70M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+70kg"/>
+                                </properties>
+                              </component>
+                              <component id="a88bd" class="javax.swing.JCheckBox" binding="CB78">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-78kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="d38bc" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="252" height="33"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="5bd7e" class="javax.swing.JCheckBox" binding="CB78M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+78kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <component id="238ce" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Inter" size="16"/>
+                              <foreground color="-1"/>
+                              <text value="Feminino"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <vspacer id="3d6dc">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <grid id="325ba" binding="cimaPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-15263977"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="5f83c" binding="textDataInicioPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="d8802" class="javax.swing.JLabel" binding="dataInicio">
+                            <constraints/>
+                            <properties>
+                              <font name="Inter" size="20"/>
+                              <foreground color="-1"/>
+                              <text value="DATA INICIO *"/>
+                            </properties>
+                          </component>
+                          <component id="6f2d0" class="javax.swing.JLabel" binding="formataData">
+                            <constraints/>
+                            <properties>
+                              <font name="Inter" size="12"/>
+                              <foreground color="-1"/>
+                              <text value="dd/mm/yyyy"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="3f524" binding="textDataFinalPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="c837e" class="javax.swing.JLabel" binding="dataFinal">
+                            <constraints/>
+                            <properties>
+                              <font name="Inter" size="20"/>
+                              <foreground color="-1"/>
+                              <text value="DATA FINAL *"/>
+                            </properties>
+                          </component>
+                          <component id="72b33" class="javax.swing.JLabel">
+                            <constraints/>
+                            <properties>
+                              <font name="Inter" size="12"/>
+                              <foreground color="-1"/>
+                              <text value="dd/mm/yyyy"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="92f7f" binding="baixoPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-15263977"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="4c73e" binding="infoDataInicioPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="3f8e2" class="javax.swing.JTextField" binding="textDataInicio">
+                            <constraints/>
+                            <properties>
+                              <background color="-1"/>
+                              <caretColor color="-2500135"/>
+                              <font name="Inter" size="16" style="1"/>
+                              <foreground color="-15263977"/>
+                              <preferredSize width="200" height="30"/>
+                              <selectedTextColor color="-1"/>
+                              <selectionColor color="-15263977"/>
+                              <text value=""/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="41772" binding="infoDataFinalPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="41b33" class="javax.swing.JTextField" binding="textDataFinal">
+                            <constraints/>
+                            <properties>
+                              <background color="-1"/>
+                              <caretColor color="-2500135"/>
+                              <font name="Inter" size="16" style="1"/>
+                              <foreground color="-15263977"/>
+                              <preferredSize width="200" height="30"/>
+                              <selectedTextColor color="-1"/>
+                              <selectionColor color="-15263977"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <hspacer id="d0282">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <hspacer id="1e3b9">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="4dccd">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <vspacer id="50c54">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="1b509" class="javax.swing.JLabel" binding="espaco">
+        <constraints border-constraint="South"/>
+        <properties>
+          <font size="18"/>
+          <foreground color="-15263977"/>
+          <text value="espaco"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

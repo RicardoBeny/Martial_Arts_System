@@ -1,0 +1,22 @@
+[
+  {
+    "contacto": "912122222",
+    "escalaoEtario": "Seniores",
+    "peso": "67",
+    "genero": "Feminino",
+    "nome": "Joana Maria",
+    "nacionalidade": "Portugal",
+    "dataNascimento": "01/03/1999",
+    "modalidade": "Judo"
+  },
+  {
+    "contacto": "923119288",
+    "escalaoEtario": "Sub23",
+    "peso": "87",
+    "genero": "Masculino",
+    "nome": "Pedo Miguel Esteves",
+    "nacionalidade": "Portugal",
+    "dataNascimento": "07/09/2001",
+    "modalidade": "Judo"
+  }
+]

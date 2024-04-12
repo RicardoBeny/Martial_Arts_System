@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pt.ipleiria.estg.dei.ei.esoft.JanelaPrincipal">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-15263977"/>
+      <doubleBuffered value="true"/>
+      <focusable value="true"/>
+      <foreground color="-2500135"/>
+      <minimumSize width="1280" height="720"/>
+      <opaque value="true"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="31b87" binding="topPanel" layout-manager="FlowLayout" hgap="35" vgap="22" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14342875"/>
+          <minimumSize width="100" height="100"/>
+          <preferredSize width="100" height="100"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="43fb7" class="javax.swing.JButton" binding="btnEventos">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <defaultCapable value="true"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <focusable value="true"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="evento.png"/>
+              <iconTextGap value="14"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <text value="EVENTOS"/>
+            </properties>
+          </component>
+          <component id="7b63b" class="javax.swing.JButton" binding="btnAtletas">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <defaultCapable value="true"/>
+              <doubleBuffered value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="atletas.png"/>
+              <iconTextGap value="16"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="280" height="60"/>
+              <text value="ATLETAS"/>
+            </properties>
+          </component>
+          <component id="79bdc" class="javax.swing.JButton" binding="btnResultados">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <icon value="resultados.png"/>
+              <iconTextGap value="4"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <requestFocusEnabled value="true"/>
+              <text value="RESULTADOS"/>
+            </properties>
+          </component>
+          <component id="63a00" class="javax.swing.JButton" binding="btnCalendario">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="calendario.png"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <requestFocusEnabled value="true"/>
+              <text value="CALENDARIO"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f4201" binding="bodyPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-15263977"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="748ec" class="javax.swing.JButton" binding="judoBemVindo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15263977"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <defaultCapable value="true"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="48" style="1"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="Judo.png"/>
+              <opaque value="false"/>
+              <text value="BEM-VINDO"/>
+            </properties>
+          </component>
+          <component id="c7562" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Inter" size="18" style="1"/>
+              <foreground color="-1"/>
+              <text value="Aplicação para a Gestão de Eventos de Artes Marciais  "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

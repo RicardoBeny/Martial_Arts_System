@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pt.ipleiria.estg.dei.ei.esoft.resultados.MedalhasEvento">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-15263977"/>
+      <foreground color="-2500135"/>
+      <minimumSize width="1280" height="720"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="4990e" binding="topPanel" layout-manager="FlowLayout" hgap="35" vgap="22" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14342875"/>
+          <minimumSize width="100" height="100"/>
+          <preferredSize width="100" height="100"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a5211" class="javax.swing.JButton" binding="btnEventos">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <defaultCapable value="true"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <focusable value="true"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="evento.png"/>
+              <iconTextGap value="14"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <text value="EVENTOS"/>
+            </properties>
+          </component>
+          <component id="b15de" class="javax.swing.JButton" binding="btnAtletas">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <defaultCapable value="true"/>
+              <doubleBuffered value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="atletas.png"/>
+              <iconTextGap value="16"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="280" height="60"/>
+              <text value="ATLETAS"/>
+            </properties>
+          </component>
+          <component id="e1141" class="javax.swing.JButton" binding="btnResultados">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <icon value="resultados.png"/>
+              <iconTextGap value="4"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <requestFocusEnabled value="true"/>
+              <text value="RESULTADOS"/>
+            </properties>
+          </component>
+          <component id="1aed6" class="javax.swing.JButton" binding="btnCalendario">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="calendario.png"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <requestFocusEnabled value="true"/>
+              <text value="CALENDARIO"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c9696" binding="bodyPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-15263977"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="46f8e" binding="setaAtrasPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-15263977"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <hspacer id="f3e16">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="1680c" class="javax.swing.JButton" binding="btnSetaAtras">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="2" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14342875"/>
+                  <borderPainted value="false"/>
+                  <focusPainted value="false"/>
+                  <icon value="setaAtras.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <vspacer id="b1a27">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                    <minimum-size width="-1" height="35"/>
+                    <preferred-size width="-1" height="35"/>
+                    <maximum-size width="-1" height="35"/>
+                  </grid>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

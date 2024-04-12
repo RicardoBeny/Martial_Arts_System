@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pt.ipleiria.estg.dei.ei.esoft.provas.EditarProva">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1280" height="720"/>
+    </constraints>
+    <properties>
+      <background color="-15263977"/>
+      <minimumSize width="1280" height="720"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="19d8a" binding="topPanel" layout-manager="FlowLayout" hgap="35" vgap="22" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14342875"/>
+          <minimumSize width="100" height="100"/>
+          <preferredSize width="100" height="100"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c9195" class="javax.swing.JButton" binding="btnEventos">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <defaultCapable value="true"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <focusable value="true"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="evento.png"/>
+              <iconTextGap value="14"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <text value="EVENTOS"/>
+            </properties>
+          </component>
+          <component id="5d29c" class="javax.swing.JButton" binding="btnAtletas">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <defaultCapable value="true"/>
+              <doubleBuffered value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="atletas.png"/>
+              <iconTextGap value="16"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="280" height="60"/>
+              <text value="ATLETAS"/>
+            </properties>
+          </component>
+          <component id="74312" class="javax.swing.JButton" binding="btnResultados">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <icon value="resultados.png"/>
+              <iconTextGap value="4"/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <requestFocusEnabled value="true"/>
+              <text value="RESULTADOS"/>
+            </properties>
+          </component>
+          <component id="aed61" class="javax.swing.JButton" binding="btnCalendario">
+            <constraints/>
+            <properties>
+              <background color="-2500135"/>
+              <borderPainted value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font name="Inter" size="26" style="1"/>
+              <foreground color="-15263977"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="calendario.png"/>
+              <maximumSize width="280" height="60"/>
+              <minimumSize width="280" height="60"/>
+              <preferredSize width="280" height="60"/>
+              <requestFocusEnabled value="true"/>
+              <text value="CALENDARIO"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8cf7c" binding="bodyPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-15263977"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="3eabc" binding="btnsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-15263977"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ab6a4" class="javax.swing.JLabel" binding="espaco">
+                <constraints/>
+                <properties>
+                  <font size="18"/>
+                  <foreground color="-15263977"/>
+                  <text value="espaco"/>
+                </properties>
+              </component>
+              <component id="d1b9f" class="javax.swing.JButton" binding="btnConfirmar">
+                <constraints/>
+                <properties>
+                  <background color="-14342875"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="Inter" size="26" style="1"/>
+                  <foreground color="-1"/>
+                  <horizontalTextPosition value="0"/>
+                  <maximumSize width="240" height="50"/>
+                  <minimumSize width="240" height="50"/>
+                  <preferredSize width="240" height="50"/>
+                  <text value="CONFIRMAR"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <hspacer id="7ae43">
+                <constraints/>
+              </hspacer>
+              <component id="7de27" class="javax.swing.JButton" binding="btnCancelar">
+                <constraints/>
+                <properties>
+                  <background color="-14342875"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="Inter" size="26" style="1"/>
+                  <foreground color="-1"/>
+                  <maximumSize width="240" height="50"/>
+                  <minimumSize width="240" height="50"/>
+                  <preferredSize width="240" height="50"/>
+                  <text value="CANCELAR"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9beb5" binding="formPanel" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-15263977"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="8e308" binding="esqPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15263977"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="6101" class="javax.swing.JLabel" binding="genero">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Inter" size="20" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="GÉNERO"/>
+                    </properties>
+                  </component>
+                  <grid id="4b71a" binding="radioBtnPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-15263977"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="df820" class="javax.swing.JRadioButton" binding="masculinoRadioButton" default-binding="true">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                          <focusPainted value="false"/>
+                          <font name="Inter" size="18" style="0"/>
+                          <foreground color="-1"/>
+                          <text value="Masculino"/>
+                        </properties>
+                      </component>
+                      <component id="228f0" class="javax.swing.JRadioButton" binding="femininoRadioButton" default-binding="true">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                          <focusPainted value="false"/>
+                          <font name="Inter" size="18"/>
+                          <foreground color="-1"/>
+                          <text value="Feminino"/>
+                        </properties>
+                      </component>
+                      <vspacer id="d4a26">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                    </children>
+                  </grid>
+                  <vspacer id="b1259">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="414a0">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+              <grid id="71bf4" binding="dirPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15263977"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="bb858" binding="categoriasPesoPanel" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-15263977"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="76c86" binding="textoPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="2d34f" class="javax.swing.JLabel" binding="categoriasPeso">
+                            <constraints/>
+                            <properties>
+                              <font name="Inter" size="20" style="1"/>
+                              <foreground color="-1"/>
+                              <text value="CATEGORIAS PESO"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="ba36a" binding="masculinoPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="b383d" class="javax.swing.JLabel" binding="masculino">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Inter" size="18"/>
+                              <foreground color="-1"/>
+                              <text value="Masculino"/>
+                            </properties>
+                          </component>
+                          <grid id="a122f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="9ebfa" class="javax.swing.JRadioButton" binding="CB38">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-38kg"/>
+                                </properties>
+                              </component>
+                              <component id="8b405" class="javax.swing.JRadioButton" binding="CB42">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-42kg"/>
+                                </properties>
+                              </component>
+                              <component id="d593f" class="javax.swing.JRadioButton" binding="CB46">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14" style="0"/>
+                                  <foreground color="-1"/>
+                                  <text value="-46kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="372af" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="2a9c3" class="javax.swing.JRadioButton" binding="CB50">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-50kg"/>
+                                </properties>
+                              </component>
+                              <component id="1038e" class="javax.swing.JRadioButton" binding="CB55">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-55kg"/>
+                                </properties>
+                              </component>
+                              <component id="aae0a" class="javax.swing.JRadioButton" binding="CB60">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-60kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="a7106" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="29e0c" class="javax.swing.JRadioButton" binding="CB66">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-66kg"/>
+                                </properties>
+                              </component>
+                              <component id="4dfe4" class="javax.swing.JRadioButton" binding="CB73">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-73kg"/>
+                                </properties>
+                              </component>
+                              <component id="1649e" class="javax.swing.JRadioButton" binding="CB81">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-81kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="2327f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="2c4e2" class="javax.swing.JRadioButton" binding="CB81M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+81kg"/>
+                                </properties>
+                              </component>
+                              <component id="6f750" class="javax.swing.JRadioButton" binding="CB90">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-90kg"/>
+                                </properties>
+                              </component>
+                              <component id="f1c4e" class="javax.swing.JRadioButton" binding="CB90M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+90kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="bfb3a" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="377ec" class="javax.swing.JRadioButton" binding="CB100">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-100kg"/>
+                                </properties>
+                              </component>
+                              <component id="3844f" class="javax.swing.JRadioButton" binding="CB100M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+100kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                        </children>
+                      </grid>
+                      <grid id="c2d89" binding="femininoPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-15263977"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <grid id="78cc5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="252" height="33"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="81111" class="javax.swing.JRadioButton" binding="CB40">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-40kg"/>
+                                </properties>
+                              </component>
+                              <component id="b72fd" class="javax.swing.JRadioButton" binding="CB44">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-44kg"/>
+                                </properties>
+                              </component>
+                              <component id="6ba26" class="javax.swing.JRadioButton" binding="CB48">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-48kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="2ded6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="252" height="33"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="421ed" class="javax.swing.JRadioButton" binding="CB52">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-52kg"/>
+                                </properties>
+                              </component>
+                              <component id="5ba2d" class="javax.swing.JRadioButton" binding="CB57">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-57kg"/>
+                                </properties>
+                              </component>
+                              <component id="e716d" class="javax.swing.JRadioButton" binding="CB63">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-63kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="ee55" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="252" height="33"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="fa93a" class="javax.swing.JRadioButton" binding="CB70">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-70kg"/>
+                                </properties>
+                              </component>
+                              <component id="a4669" class="javax.swing.JRadioButton" binding="CB70M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+70kg"/>
+                                </properties>
+                              </component>
+                              <component id="fa021" class="javax.swing.JRadioButton" binding="CB78">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="-78kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <grid id="ec2d0" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                            <constraints>
+                              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="252" height="33"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <background color="-15263977"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <component id="fb346" class="javax.swing.JRadioButton" binding="CB78M">
+                                <constraints/>
+                                <properties>
+                                  <background color="-15263977"/>
+                                  <focusPainted value="false"/>
+                                  <font name="Inter" size="14"/>
+                                  <foreground color="-1"/>
+                                  <horizontalAlignment value="0"/>
+                                  <horizontalTextPosition value="11"/>
+                                  <text value="+78kg"/>
+                                </properties>
+                              </component>
+                            </children>
+                          </grid>
+                          <component id="b78de" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Inter" size="18"/>
+                              <foreground color="-1"/>
+                              <text value="Feminino"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <vspacer id="abb0">
+                        <constraints>
+                          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <vspacer id="5ae6d">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                      <component id="774f6" class="javax.swing.JButton" binding="btnReset">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-14342875"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <font name="Inter" size="16" style="1"/>
+                          <foreground color="-1"/>
+                          <horizontalTextPosition value="0"/>
+                          <text value="RESET CATEGORIAS"/>
+                        </properties>
+                      </component>
+                      <hspacer id="19c90">
+                        <constraints>
+                          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </hspacer>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="5569a" binding="meioPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-15263977"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="56065" class="javax.swing.JLabel" binding="escalaoEtario">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Inter" size="20" style="1"/>
+                      <foreground color="-1"/>
+                      <text value="ESCALÃO ETÁRIO"/>
+                    </properties>
+                  </component>
+                  <grid id="ddb9c" binding="dropdownPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-15263977"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="a3092" class="javax.swing.JComboBox" binding="dropdownEscalaoEtario">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <minimum-size width="300" height="30"/>
+                            <preferred-size width="300" height="30"/>
+                            <maximum-size width="300" height="30"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-1"/>
+                          <font name="Inter" size="16" style="1"/>
+                          <foreground color="-15263977"/>
+                        </properties>
+                      </component>
+                      <vspacer id="601f8">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                      </vspacer>
+                    </children>
+                  </grid>
+                  <vspacer id="c76cb">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="c984c">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
